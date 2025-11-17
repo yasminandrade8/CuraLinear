@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste ASSIST (OMS) - Formulário Completo</title>
+    <link rel="stylesheet" href="/css/style.css">
+<body>
+    <main class="mainpg"></main>
+
+<div class="container">
+    <h1 class="h1pg"> Teste ASSIST</h1>
+    <p>Avaliação do Uso de Substâncias Psicoativas. Por favor, responda a todas as perguntas com sinceridade.</p>
+    
+    <div class="aviso">
+        <strong>Instrução Geral: Para a Q1, responda se você usou a substância nos últimos 3 meses. As perguntas de Q2 a Q8 serão repetidas para cada uma das substâncias.</strong>
+    </div>
+    
+    
+        
+        <h2 class="h2pg">Q1: Nos últimos três meses, qual ou quais destas substâncias você usou?</h2>
+        <p>Marque SIM se usou nos últimos 3 meses, ou NUNCA se nunca usou na vida.</p>
+        
+        <div class="questao"><label>1. Tabaco (cigarros, charutos, cachimbo, etc.)</label><div class="opcoes"><label><input type="radio" name="q1_tabaco" value="0" required> Nunca</label><label><input type="radio" name="q1_tabaco" value="2"> Sim</label></div></div>
+        <div class="questao"><label>2. Álcool (cerveja, vinho, destilados, etc.)</label><div class="opcoes"><label><input type="radio" name="q1_alcool" value="0" required> Nunca</label><label><input type="radio" name="q1_alcool" value="2"> Sim</label></div></div>
+        <div class="questao"><label>3. Cannabis (maconha, haxixe, etc.)</label><div class="opcoes"><label><input type="radio" name="q1_canabis" value="0" required> Nunca</label><label><input type="radio" name="q1_canabis" value="3"> Sim</label></div></div>
+        <div class="questao"><label>4. Cocaína (pó, crack, pasta base, etc.)</label><div class="opcoes"><label><input type="radio" name="q1_cocaina" value="0" required> Nunca</label><label><input type="radio" name="q1_cocaina" value="3"> Sim</label></div></div>
+        <div class="questao"><label>5. Anfetaminas e Metanfetaminas (ecstasy, speed, etc.)</label><div class="opcoes"><label><input type="radio" name="q1_anfetas" value="0" required> Nunca</label><label><input type="radio" name="q1_anfetas" value="3"> Sim</label></div></div>
+        <div class="questao"><label>6. Inalantes (cheirinho, cola, solventes, gás butano, etc.)</label><div class="opcoes"><label><input type="radio" name="q1_inalantes" value="0" required> Nunca</label><label><input type="radio" name="q1_inalantes" value="3"> Sim</label></div></div>
+        <div class="questao"><label>7. Sedativos ou Pílulas para Dormir (diazepam, lorazepam, etc.)</label><div class="opcoes"><label><input type="radio" name="q1_sedativos" value="0" required> Nunca</label><label><input type="radio" name="q1_sedativos" value="3"> Sim</label></div></div>
+        <div class="questao"><label>8. Alucinógenos (LSD, cogumelos, PCP, ketamina, etc.)</label><div class="opcoes"><label><input type="radio" name="q1_alucino" value="0" required> Nunca</label><label><input type="radio" name="q1_alucino" value="3"> Sim</label></div></div>
+        <div class="questao"><label>9. Opiáceos (morfina, heroína, metadona, etc.)</label><div class="opcoes"><label><input type="radio" name="q1_opiaceos" value="0" required> Nunca</label><label><input type="radio" name="q1_opiaceos" value="3"> Sim</label></div></div>
+        <div class="questao"><label>10. Outros (especificar)</label><div class="opcoes"><label><input type="radio" name="q1_outros" value="0" required> Nunca</label><label><input type="radio" name="q1_outros" value="3"> Sim</label></div></div>
+
+        <div class="questao">
+            <label>Se marcou "Sim" na substância "10. Outros", qual substância?</label>
+            <input type="text" name="q1_outros_especificar" placeholder="Ex: Esteroides, Fentanil, etc." style="width: 98%; padding: 8px;">
+        </div>
+
+        <hr>
+
+        <h2>Q2 a Q8: Para substâncias que você usou nos últimos 3 meses, responda com a frequência correta.</h2>
+
+        <div class="bloco-substancia">
+            <div class="substancia-titulo">1. TABACO (Cigarros, charutos, etc.)</div>
+            <div class="questao"><label>Q2: Com que frequência você usou TABACO nos últimos três meses?</label><div class="pontuacao-opcoes"><label><input type="radio" name="q2_tabaco" value="0" required> Nunca</label><label><input type="radio" name="q2_tabaco" value="2"> 1 ou 2 vezes</label><label><input type="radio" name="q2_tabaco" value="3"> Mensalmente</label><label><input type="radio" name="q2_tabaco" value="4"> Semanalmente</label><label><input type="radio" name="q2_tabaco" value="6"> Diariamente ou quase diariamente</label></div></div>
+            <div class="questao"><label>Q3: Com que frequência você sentiu um forte desejo ou compulsão para usar TABACO nos últimos três meses?</label><div class="pontuacao-opcoes"><label><input type="radio" name="q3_tabaco" value="0" required> Nunca</label><label><input type="radio" name="q3_tabaco" value="3"> 1 ou 2 vezes</label><label><input type="radio" name="q3_tabaco" value="4"> Mensalmente</label><label><input type="radio" name="q3_tabaco" value="5"> Semanalmente</label><label><input type="radio" name="q3_tabaco" value="6"> Diariamente ou quase diariamente</label></div></div>
+            <div class="questao"><label>Q4: Com que frequência o uso de TABACO resultou em problemas de saúde, sociais, legais ou financeiros nos últimos três meses?</label><div class="pontuacao-opcoes"><label><input type="radio" name="q4_tabaco" value="0" required> Nunca</label><label><input type="radio" name="q4_tabaco" value="3"> 1 ou 2 vezes</label><label><input type="radio" name="q4_tabaco" value="4"> Mensalmente</label><label><input type="radio" name="q4_tabaco" value="5"> Semanalmente</label><label><input type="radio" name="q4_tabaco" value="6"> Diariamente ou quase diariamente</label></div></div>
+            <div class="questao"><label>Q5: Com que frequência você falhou em fazer o que era esperado de você por causa do uso de TABACO nos últimos três meses?</label><div class="pontuacao-opcoes"><label><input type="radio" name="q5_tabaco" value="0" required> Nunca</label><label><input type="radio" name="q5_tabaco" value="3"> 1 ou 2 vezes</label><label><input type="radio" name="q5_tabaco" value="4"> Mensalmente</label><label><input type="radio" name="q5_tabaco" value="5"> Semanalmente</label><label><input type="radio" name="q5_tabaco" value="6"> Diariamente ou quase diariamente</label></div></div>
+            <div class="questao"><label>Q6: Com que frequência um amigo, familiar ou outra pessoa expressou preocupação sobre o seu uso de TABACO?</label><div class="pontuacao-opcoes"><label><input type="radio" name="q6_tabaco" value="0" required> Nunca</label><label><input type="radio" name="q6_tabaco" value="3"> 1 ou 2 vezes</label><label><input type="radio" name="q6_tabaco" value="4"> Mensalmente</label><label><input type="radio" name="q6_tabaco" value="5"> Semanalmente</label><label><input type="radio" name="q6_tabaco" value="6"> Diariamente ou quase diariamente</label></div></div>
+            <div class="questao"><label>Q7: Você já tentou controlar, diminuir ou parar o uso de TABACO, mas não conseguiu?</label><div class="pontuacao-opcoes"><label><input type="radio" name="q7_tabaco" value="0" required> Nunca</label><label><input type="radio" name="q7_tabaco" value="3"> 1 ou 2 vezes</label><label><input type="radio" name="q7_tabaco" value="4"> Mensalmente</label><label><input type="radio" name="q7_tabaco" value="5"> Semanalmente</label><label><input type="radio" name="q7_tabaco" value="6"> Diariamente ou quase diariamente</label></div></div>
+            <div class="questao"><label>Q8: Você já usou TABACO em situações em que isso aumentava a chance de se machucar?</label><div class="opcoes"><label><input type="radio" name="q8_tabaco" value="0" required> Não, nunca</label><label><input type="radio" name="q8_tabaco" value="7"> Sim, nos últimos três meses</label><label><input type="radio" name="q8_tabaco" value="3"> Sim, mas não nos últimos três meses</label></div></div>
+        </div>
+
+        <div class="bloco-substancia">
+            <div class="substancia-titulo">2. ÁLCOOL (Cerveja, vinho, destilados, etc.)</div>
+            <div class="questao"><label>Q2: Com que frequência você usou ÁLCOOL nos últimos três meses?</label><div class="pontuacao-opcoes"><label><input type="radio" name="q2_alcool" value="0" required> Nunca</label><label><input type="radio" name="q2_alcool" value="2"> 1 ou 2 vezes</label><label><input type="radio" name="q2_alcool" value="3"> Mensalmente</label><label><input type="radio" name="q2_alcool" value="4"> Semanalmente</label><label><input type="radio" name="q2_alcool" value="6"> Diariamente ou quase diariamente</label></div></div>
+            <div class="questao"><label>Q3: Com que frequência você sentiu um forte desejo ou compulsão para usar ÁLCOOL nos últimos três meses?</label><div class="pontuacao-opcoes"><label><input type="radio" name="q3_alcool" value="0" required> Nunca</label><label><input type="radio" name="q3_alcool" value="3"> 1 ou 2 vezes</label><label><input type="radio" name="q3_alcool" value="4"> Mensalmente</label><label><input type="radio" name="q3_alcool" value="5"> Semanalmente</label><label><input type="radio" name="q3_alcool" value="6"> Diariamente ou quase diariamente</label></div></div>
+            <div class="questao"><label>Q4: Com que frequência o uso de ÁLCOOL resultou em problemas de saúde, sociais, legais ou financeiros nos últimos três meses?</label><div class="pontuacao-opcoes"><label><input type="radio" name="q4_alcool" value="0" required> Nunca</label><label><input type="radio" name="q4_alcool" value="3"> 1 ou 2 vezes</label><label><input type="radio" name="q4_alcool" value="4"> Mensalmente</label><label><input type="radio" name="q4_alcool" value="5"> Semanalmente</label><label><input type="radio" name="q4_alcool" value="6"> Diariamente ou quase diariamente</label></div></div>
+            <div class="questao"><label>Q5: Com que frequência você falhou em fazer o que era esperado de você por causa do uso de ÁLCOOL nos últimos três meses?</label><div class="pontuacao-opcoes"><label><input type="radio" name="q5_alcool" value="0" required> Nunca</label><label><input type="radio" name="q5_alcool" value="3"> 1 ou 2 vezes</label><label><input type="radio" name="q5_alcool" value="4"> Mensalmente</label><label><input type="radio" name="q5_alcool" value="5"> Semanalmente</label><label><input type="radio" name="q5_alcool" value="6"> Diariamente ou quase diariamente</label></div></div>
+            <div class="questao"><label>Q6: Com que frequência um amigo, familiar ou outra pessoa expressou preocupação sobre o seu uso de ÁLCOOL?</label><div class="pontuacao-opcoes"><label><input type="radio" name="q6_alcool" value="0" required> Nunca</label><label><input type="radio" name="q6_alcool" value="3"> 1 ou 2 vezes</label><label><input type="radio" name="q6_alcool" value="4"> Mensalmente</label><label><input type="radio" name="q6_alcool" value="5"> Semanalmente</label><label><input type="radio" name="q6_alcool" value="6"> Diariamente ou quase diariamente</label></div></div>
+            <div class="questao"><label>Q7: Você já tentou controlar, diminuir ou parar o uso de ÁLCOOL, mas não conseguiu?</label><div class="pontuacao-opcoes"><label><input type="radio" name="q7_alcool" value="0" required> Nunca</label><label><input type="radio" name="q7_alcool" value="3"> 1 ou 2 vezes</label><label><input type="radio" name="q7_alcool" value="4"> Mensalmente</label><label><input type="radio" name="q7_alcool" value="5"> Semanalmente</label><label><input type="radio" name="q7_alcool" value="6"> Diariamente ou quase diariamente</label></div></div>
+            <div class="questao"><label>Q8: Você já usou ÁLCOOL em situações em que isso aumentava a chance de se machucar?</label><div class="opcoes"><label><input type="radio" name="q8_alcool" value="0" required> Não, nunca</label><label><input type="radio" name="q8_alcool" value="7"> Sim, nos últimos três meses</label><label><input type="radio" name="q8_alcool" value="3"> Sim, mas não nos últimos três meses</label></div></div>
+        </div>
+
+        <hr>
+
+        <h2>Q9: Você já usou alguma das substâncias mencionadas acima através de injeção?</h2>
+        <p>Responda com base em todo o seu histórico de uso, não apenas nos últimos 3 meses.</p>
+        
+        <div class="questao">
+            <label>Q9: Uso injetável (Qualquer substância, em qualquer momento da vida)</label>
+            <div class="opcoes">
+                <label><input type="radio" name="q9_injetavel" value="0" required> Não, nunca</label><br>
+                <label><input type="radio" name="q9_injetavel" value="7"> Sim, nos últimos três meses</label><br>
+                <label><input type="radio" name="q9_injetavel" value="3"> Sim, mas não nos últimos três meses</label>
+            </div>
+        </div>
+
+        <div style="margin-top: 40px;">
+            <a href="/public/agendamento.html">
+                <button class="btnpg" type="button">Enviar Respostas e Prosseguir para Agendamento</button>
+          </a>
+
+        </div>
+        
+    
+</div>
+
+
+
+</body>
+</html>
