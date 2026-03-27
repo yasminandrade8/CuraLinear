@@ -13,3 +13,6 @@ Guilherme Marinho Pozati Corrêa
 Renato Alves Pinto
 
 Yasmin Rodrigues de Andrade
+
+## Link do Projeto
+https://yasminandrade8.github.io/CuraLinear/
